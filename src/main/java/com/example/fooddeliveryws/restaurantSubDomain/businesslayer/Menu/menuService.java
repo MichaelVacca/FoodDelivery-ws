@@ -9,4 +9,5 @@ import java.util.List;
 public interface menuService {
     List<MenuResponseModel> getAllMenus();
     Menu getMenusById(String menuId);
+    //
 }
